@@ -25,7 +25,7 @@ p
     }
 
 /* start all section */
-#service, #divider, #about, #team, #newsletter,
+#service,#comissao,#divider, #about, #team, #newsletter,
  #pricing, #portfolio, #client, #contact
     {
         padding-top: 100px;
@@ -83,6 +83,8 @@ p
 #home
 	{
       padding-top: 65px;
+      margin-bottom:100px;
+      margin-top:5px
 	}
 .flexslider {
   margin: 0 0 60px;
@@ -165,14 +167,7 @@ p
     {
         padding: 10px;
     }
-#service .media .fa
-    {
-    color: goldenrod;
-    font-size: 35px;
-    margin-right: 10px;
-    margin-top: -15px;
-    margin-bottom: 20px;
-    }
+
 #service .media .media-heading
     {
         border-bottom: 2px solid #202020;
@@ -180,15 +175,66 @@ p
         font-size: 20px;
         padding-bottom: 10px;
     }
+
+#service .media .fa
+    {
+    color: goldenrod;
+    font-size: 35px;
+    margin-right: 10px;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    } 
+
+#service .media .fa-comments-o 
+    {
+    margin-top: 0px;
+    }      
+       
 /* end service */
+
+/* start comissao */
+
+#comissao .media .media-heading
+    {
+        border-bottom: 2px solid #202020;
+        font-weight: 600;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+#comissao .media .fa
+    {
+    color: goldenrod;
+    font-size: 35px;
+    margin-right: 10px;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    }  
+
+#comissao .media .fa-cog,
+#comissao .media .fa-laptop,
+#comissao .media .fa-comments-o
+    {
+    margin-top: 0px;
+    }     
+#comissao .media .media-heading
+    {
+        border-bottom: 2px solid #202020;
+        font-weight: 600;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }  
+
+/* end comissao */
 
 /* start divider */
 #divider
     {
-        background: url('../images/divider-bg.jpg');
+        background: url('../images/divider-bg.jpg');   
         background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
         background-repeat: no-repeat;
-        color: #FFFFFF;
+        color: #cfcfcf;
     }
 #divider h2
     {
@@ -516,7 +562,7 @@ p
     }
 #contact .fa
     {
-        color: #93ca3a;
+        color: white;
         font-size: 18px;
         padding-bottom: 14px;
     }
@@ -684,7 +730,8 @@ soon.css:129
     -o-animation-fill-mode: both;
     animation-fill-mode: both;
 }
-.timer_box {
+@media (min-width: 720px){
+    .timer_box {
     margin-left:40px;
     display: inline-block;
     padding: 15px 12px 0px 12px;
@@ -693,5 +740,19 @@ soon.css:129
     height: 130px;
     border-radius: 50%;
     border: 4px solid rgba(255, 255, 255, .6);
+}
+}
+
+@media (max-width: 710px){
+    .timer_box {
+    margin-left:5px;
+    display: inline-block;
+    padding: 15px 12px 0px 12px;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 4px solid rgba(255, 255, 255, .6);
+}
 }
 /* end templatemo 360 media quires */
