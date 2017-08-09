@@ -758,4 +758,55 @@ soon.css:129
 .nome_logo{
     font-size: 30px;
 }
+.contagem{
+    margin-top:-32%;
+    margin-left:-40%
+}
+.font_18{
+    font-size: 18px;
+}
+@media (min-width: 600px){
+    .contact_info{
+        margin-left: 28%;
+    }
+}
+
+
+.esp-10{
+    margin-top: 10px;
+}
+.esp-20{
+    margin-top: 20px;
+}
+.esp-30{
+    margin-top: 30px;
+}
+.esp-50{
+    margin-top: 50px;
+}
+.esp-150N{
+    margin-top:-150px;
+}
+.esp-130N{
+    margin-top:-130px;
+}
+.esp-120N{
+    margin-top:-120px;
+}
+.esp-110N{
+    margin-top:-110px;
+}
+.esp-50N{
+    margin-top: -50px;
+}
+.esp-20N{
+    margin-top: -20px;
+}
+.esp-20N{
+    margin-top: -30px;
+}
+.esp_bottom-50{
+    margin-bottom:50px; 
+}
+
 /* end templatemo 360 media quires */
