@@ -778,6 +778,15 @@ soon.css:129
         color:#0C6;
         text-align: center
     }
+    .mob_esp-70{
+        margin-top: 70px!important;
+    }
+     .mob_esp-70N{
+        margin-top: -70px!important;
+    }
+    .mob_esp-10{
+        margin-top: 10px!important;
+    }
 
 }
 
