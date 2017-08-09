@@ -769,9 +769,22 @@ soon.css:129
     .contact_info{
         margin-left: 28%;
     }
+    .centerin{
+        margin-left: 20px;
+    }
+}
+@media (max-width: 540px){
+     .titlein{
+        color:#0C6;
+        text-align: center
+    }
+
 }
 
 
+.esp-left-50N{
+    margin-left: -50px;
+}
 .esp-10{
     margin-top: 10px;
 }
