@@ -773,7 +773,7 @@ soon.css:129
         margin-left: 20px;
     }
 }
-@media (max-width: 540px){
+@media screen and (orientation:portrait ) and (max-width: 540px){
      .titlein{
         color:#0C6;
         text-align: center
@@ -788,6 +788,39 @@ soon.css:129
         margin-top: 10px!important;
     }
 
+}
+@media screen and (orientation:landscape) and (max-width: 660px) and (min-width: 620px){
+  
+    .mob_screen_esp-30{
+        margin-top: 25px!important;
+    }
+    .mob_screen_esp-50N{
+        margin-top: -50px!important;
+    }
+    .mob_screen_esp-80{
+        margin-top: 80px!important;
+    }
+    .mob_screen_esp-10{
+        margin-top: 10px!important;
+    }
+    .capa_landscape{
+        margin-left: 120px!important;
+    }
+    .logo_landscape{
+        margin-left: 230px!important;
+    }
+    .button_landscape{
+        margin-left: 120px!important;
+    }
+    .contagem{
+        margin-top:-30%!important;
+    }
+    .contact_info {
+        margin-left: 12%!important;
+    }
+    .visite{
+        margin-left: 75px!important;
+    }
 }
 
 
