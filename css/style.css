@@ -789,7 +789,7 @@ soon.css:129
     }
 
 }
-@media screen and (orientation:landscape) and (max-width: 740px) and (min-width: 560px){
+@media screen and (orientation:landscape) and (max-width: 740px) and (min-width: 510px){
   
     .mob_screen_esp-30{
         margin-top: 25px!important;
