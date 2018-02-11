@@ -38,7 +38,7 @@ p
 .navbar-default
     {
         background: #fff;
-        border-color:#f8a33b; 
+        border: none;
         opacity: 0.95;
         box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
         margin: 0 !important;
@@ -46,8 +46,8 @@ p
     }
 .navbar-default .navbar-brand
     {
-        padding-top: 20px;
-        padding-bottom: 47px;
+        padding-top: 4px;
+        padding-bottom: 60px;
     }
 .navbar-default .navbar-nav li a
     {
@@ -62,7 +62,7 @@ p
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: darkorange;
+  color: #93ca3a;
   background-color: transparent;
 }
 .navbar-default .navbar-toggle
@@ -178,7 +178,7 @@ p
 
 #service .media .fa
     {
-    color: #f4872d;
+    color: goldenrod;
     font-size: 35px;
     margin-right: 10px;
     margin-top: -15px;
@@ -203,7 +203,7 @@ p
     }
 #comissao .media .fa
     {
-    color: #f4872d;
+    color: goldenrod;
     font-size: 35px;
     margin-right: 10px;
     margin-top: -15px;
@@ -766,8 +766,8 @@ soon.css:129
     font-size: 30px;
 }
 .contagem{
-    margin-top:-30%;
-    margin-left:37%
+    margin-top:-32%;
+    margin-left:-40%
 }
 .font_18{
     font-size: 18px;
@@ -889,9 +889,5 @@ soon.css:129
     opacity: 0.7!important;
     pointer-events: none;
     cursor: default;
-}
-
-.disable{
-    display: none;
 }
 /* end templatemo 360 media quires */
